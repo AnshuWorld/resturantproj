@@ -49,12 +49,19 @@
         width: 100%;
     }
 }
-.containerabout, .containergallary, .services{
+.containerabout, .containergallary, .services, .footer{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     flex-wrap: wrap;
+}
+.footer{
+    background-color: darkslategrey;
+    color: azure;
+}
+.footone{
+    flex: 0 0 20%;
 }
 .leftside{
     width: 45vw;
